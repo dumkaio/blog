@@ -1,0 +1,19 @@
+/* We apply these styles only from the tablet breakpoint, desktop doesn't require it */
+@media (max-width: 991px) {
+  .hero {
+    height: calc(var(--vh, 1vh) * 100);
+  }
+}
+/* We set the fixed height for mobile landscape because there is not enough height space for the one screen section */
+@media (max-width: 767px) {
+  .hero {
+    height: auto;
+    min-height: 500px;
+  }
+}
+/* And then again calculate the height for the hero section */
+@media (max-width: 479px) {
+  .hero {
+     height: calc(var(--vh, 1vh) * 100);
+  }
+}

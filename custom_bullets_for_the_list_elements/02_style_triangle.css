@@ -1,0 +1,11 @@
+.ul--triangle li::before {
+  content: " ";
+  width: 0; /* Dimensions of the triangle sets in the border properties */
+  height: 0;
+  border-top: 5px solid transparent; /* Set border top & bottom to change the height of the triangle */
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #12b0eb; /* Triangle width and color */
+  position: absolute; /* Positioning the bullet as absolute. It will relative to the li item */
+  left: 0; /* Stick the bullet to the left side */
+  top: 6px; /* Align the bullet with the first line of li text */
+}

@@ -1,0 +1,10 @@
+.ul--circle li::before {
+  content: " ";
+  width: 8px; /* Width of the bullet */
+  height: 8px; /* Height of the bullet */
+  background: #12b0eb; /* Set color for the bullet */
+  border-radius: 50%; /* Circle bullet */
+  position: absolute; /* Positioning the bulet as absolute. It wil relative to li item */
+  left: 0; /* Stick the bullet to the left side */
+  top: 8px; /* Align the bullet with the first line of li text. The value will depends on font-size and line-height */
+}

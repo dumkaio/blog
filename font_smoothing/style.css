@@ -1,0 +1,20 @@
+/* Middle smoothing level, works in 99% cases */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+/* Strong smoothing level */
+body { 
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-font-smoothing: subpixel-antialiased;
+  -o-font-smoothing: subpixel-antialiased;
+}
+
+/* Disable smoothing */
+body { 
+  -webkit-font-smoothing: none;
+  -moz-font-smoothing: none;
+  -o-font-smoothing: none;
+}

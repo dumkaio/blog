@@ -1,0 +1,10 @@
+.ui--diamond li::before {
+  content: " ";
+  width: 8px; /* Width of the bullet */
+  height: 8px; /* Height of the bullet */
+  transform: rotate(45deg); /* Rotating the rectangle */
+  background: #12b0eb; /* Set color for the bullet */
+  position: absolute; /* Positioning the bullet as absolute. It will relative to the li item */
+  left: 0; /* Stick the bullet to the left side */
+  top: 9px; /* Align the bullet with the first line of li text */
+}

@@ -1,0 +1,8 @@
+/* User can resize the textarea vertical only */
+textarea {
+  resize: vertical;
+}
+/* Disable textarea resizing completely */
+textarea {
+  resize: none;
+}
